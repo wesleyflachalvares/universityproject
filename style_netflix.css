@@ -1,0 +1,68 @@
+body {
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content{
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-right: 1px;
+    margin-bottom: 50px;
+    margin-left: 1px;
+}
+
+img{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 250px;
+    height: 100%;
+}
+
+.carousel{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 5px;
+    transition: all 0.8s;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    border: solid 5px red;
+}
+
+#owner{
+    bottom: 50px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#owner a{
+    bottom: 50px;
+    color:white;
+    text-decoration: solid;
+    text-transform: none;
+}
